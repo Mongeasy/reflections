@@ -1,0 +1,48 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+Being able to compare two files was much more easier and faster with the aid of
+line numbers.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+Easy access will enable me to be an efficient programmer in a way that ensures
+that I don't waste time tediously scrolling through hundreds and possibly
+thousands lines of code just to compare differences in versions and I will rest
+assured that an entire file's history is always a couple of clicks away.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+Manual commits are great because as a programmer you decide which changes to
+commit and when to commit those changes. This will then allow you as the
+programmer to commit changes logically rather than based on duration.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+Version control systems such as Git are built to support multiple files and as
+such, it is likely that a programmer may need to commit changes within multiple
+files in one go - one commit is essential and required in that instance.
+
+How can you use the commands git log and git diff to view the history of files?
+
+The git log command lists all commits within a repository along with the ID for
+each commit. The git diff command is useful for comparing changes(commits)
+between files along with which lines have been inserted or deleted within that
+file.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+Somewhat confident, having now learnt that if a bug is introduced which will be
+in all likelihood, troubleshooting measures can be implemented by reverting back
+to previous versions and going through each commit on the log using the ID.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I have a project that I have not touched in a while because I broke it beyond
+repair, I am thinking of restarting it, armed with the basics of Git version
+control now.
