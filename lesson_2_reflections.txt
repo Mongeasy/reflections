@@ -13,3 +13,20 @@ on the local machine. The repository is a storage place that takes in file
 commits after they have been added from the working directory to the staging
 area. The staging area is important in that it helps in making logical commits
 at a given point in time.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+This can be achieved by adding changes of the same logic as one commit to a file.
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+Branches would be helpful in situations where changes that are not yet part of
+the main project need to be tried out separately from the main branch, in so
+doing, making it easier to navigate through our history of changes.
+
+How do the diagrams help you visualize the branch structure?
+
+Diagrams aid me to visualize and to see which commits may restored and which may
+be lost, they also help with tracing back branches and their origins. 
