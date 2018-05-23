@@ -29,4 +29,12 @@ doing, making it easier to navigate through our history of changes.
 How do the diagrams help you visualize the branch structure?
 
 Diagrams aid me to visualize and to see which commits may restored and which may
-be lost, they also help with tracing back branches and their origins. 
+be lost, they also help with tracing back branches and their origins.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+The result of merging two branches together is that we end up with one branch
+that incorporates changes that have been introduced by each branch as one. We
+represent in a diagram as a way to help us in tracing back commits and their
+branches.
