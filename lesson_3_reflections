@@ -1,6 +1,6 @@
 When would you want to use a remote repository rather than keeping all your work local?
 
-When I have have limited to no access to my own machine.
+When I have limited to no access to my own machine.
 
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
@@ -9,7 +9,7 @@ There may be instances where I only need to access certain versions or features 
 
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
-Simply put, forks are GitHub-based clones, whereas clones can be used also remotely on a user's local machine, and finally branches are a string of related and urelated commits that have been made within a repository. 
+Simply put, forks are GitHub-based clones, whereas clones can be used also remotely on a user's local machine, and finally branches are a string of related and unrelated commits that have been made within a repository.
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
@@ -17,4 +17,8 @@ The benefit is that the repository can be made to be in sync with the remote, or
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
-Collaboration without a VCS such as Git and GitHub would be cumbersome and tedious in the sense that it would be more manual and not dynamic as comapred to using a VCS. I would probably use a tool like Notepad to keep track of the versions as we move forward. It would be easier to implement on smaller projects and the learning curve is not as steep as that of a VCS. It would be harder to keep track and control the various versions of each change that may be contributed throughout the project. 
+Collaboration without a VCS such as Git and GitHub would be cumbersome and tedious in the sense that it would be more manual and not dynamic as compared to using a VCS. I would probably use a tool like Notepad to keep track of the versions as we move forward. It would be easier to implement on smaller projects and the learning curve is not as steep as that of a VCS. It would be harder to keep track and control the various versions of each change that may be contributed throughout the project.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+In the event that the current branch that someone may be working on and is still a work-in-progress, it is advisable to create a separate branch up until that branch is ready to be merged into the master branch. The benefit of this is to ensure that the master branch is functioning even when certain changes are being implemented and are to be merged into the master branch ultimately, also this protects whatever code that is currently in the master to remain as is without breaking it until such a time comes to merge the two branches. 
