@@ -14,3 +14,7 @@ Simply put, forks are GitHub-based clones, whereas clones can be used also remot
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 The benefit is that the repository can be made to be in sync with the remote, or changes that may be added locally can be pushed and merged with the last known state of the remote.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Collaboration without a VCS such as Git and GitHub would be cumbersome and tedious in the sense that it would be more manual and not dynamic as comapred to using a VCS. I would probably use a tool like Notepad to keep track of the versions as we move forward. It would be easier to implement on smaller projects and the learning curve is not as steep as that of a VCS. It would be harder to keep track and control the various versions of each change that may be contributed throughout the project. 
